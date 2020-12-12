@@ -6,5 +6,7 @@ public class AgendadorImpl implements Agendador {
     @Override
     public void agendar(String nome) {
 
+        System.out.println(nome);
+
     }
 }

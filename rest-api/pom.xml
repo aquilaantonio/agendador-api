@@ -13,6 +13,14 @@
     <groupId>com.agendador</groupId>
     <artifactId>Agendador-RestApi</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.agendador</groupId>
+            <artifactId>Agendador-Impl</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

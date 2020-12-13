@@ -20,6 +20,11 @@
             <artifactId>Agendador-Impl</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.agendador</groupId>
+            <artifactId>Agendador-RestApi</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
